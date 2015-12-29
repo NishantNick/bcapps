@@ -1,6 +1,6 @@
  
 ; sat368.bsp LOG FILE
-;
+; bnvncnj gfh fg
 ; Created 2014-08-11/08:02:42.37.
 ;
 ; BEGIN NIOSPK COMMANDS
@@ -8,11 +8,11 @@
 LEAPSECONDS_FILE    = /kernels/gen/lsk/naif0010.tls
 SPK_FILE            = sat368.bsp
   INCLUDE_TEXT_FILE = sat368.cmt
-  SOURCE_NIO_FILE   = sat368.nio
-    BEGIN_TIME      = CAL-ET 1900 JAN 01 00:00:41.183
-    END_TIME        = CAL-ET 2100 JAN 01 00:01:07.183
-  SOURCE_NIO_FILE   = /group/naif/kernels/gen/spk/de430.nio
-    BODIES          = 3, 399, 10, 6
+  SOURCE_NIO_FILE   = sat368.nioh fcvb cvb
+    BEGIN_TIME      = CAL-ET 1900 JAN 01 00:00:41.183 
+    END_TIME        = CAL-ET 2100 JAN 01 00:01:07.gf
+  SOURCE_NIO_FILE   = /group/naif/kernels/gen/spk/de430.niob cfgbfg
+    BODIES          = 3, 399, 10, 6bgfg b fcg
     BEGIN_TIME      = CAL-ET 1900 JAN 01 00:00:41.183
     END_TIME        = CAL-ET 2100 JAN 01 00:01:07.183
  
@@ -23,54 +23,9 @@ SPK_FILE            = sat368.bsp
  
 Satellite Ephemeris: SAT368
  
-Location: ssd.jpl.nasa.gov/pub/eph/satellites/nio/LINUX_PC/sat368.nio
-Size(nio): 78039040 bytes
- 
-Enter SATEPHMERGE/13 03-Jul-2014 16:03: 5.710 linked 24-May-2011 16:26:51
-Fit to Earthbased data
-Ephemeris Version Number: 17
-Timespan from JED  2415008.500(20-DEC-1899) to JED  2488070.500(02-JAN-2100)
-File Epoch Julian Date: 2451602.50
-Master Interval: 18.0000 Days
-Equinox Reference Julian Date: 2451545.00
-Planetary Ephemeris Number: DE-0430/LE-0430
- 
-Bodies on the File:
  
    Name         Number            GM             NDIV   NDEG   Model
-   Ymir           619    0.000000000000000E+00      1      4   SATORBINT
-   Paaliaq        620    0.000000000000000E+00      1      5   SATORBINT
-   Tarvos         621    0.000000000000000E+00      1      6   SATORBINT
-   Ijiraq         622    0.000000000000000E+00      1      5   SATORBINT
-   Suttungr       623    0.000000000000000E+00      1      4   SATORBINT
-   Kiviuq         624    0.000000000000000E+00      1      5   SATORBINT
-   Mundilfari     625    0.000000000000000E+00      1      4   SATORBINT
-   Albiorix       626    0.000000000000000E+00      1      4   SATORBINT
-   Skathi         627    0.000000000000000E+00      1      4   SATORBINT
-   Erriapus       628    0.000000000000000E+00      1      6   SATORBINT
-   Siarnaq        629    0.000000000000000E+00      1      5   SATORBINT
-   Thrymr         630    0.000000000000000E+00      1      5   SATORBINT
-   Narvi          631    0.000000000000000E+00      1      4   SATORBINT
-   Aegir          636    0.000000000000000E+00      1      5   SATORBINT
-   Bebhionn       637    0.000000000000000E+00      1      6   SATORBINT
-   Bergelmir      638    0.000000000000000E+00      1      5   SATORBINT
-   Bestla         639    0.000000000000000E+00      1      8   SATORBINT
-   Farbauti       640    0.000000000000000E+00      1      5   SATORBINT
-   Fenrir         641    0.000000000000000E+00      1      5   SATORBINT
-   Fornjot        642    0.000000000000000E+00      1      5   SATORBINT
-   Hati           643    0.000000000000000E+00      1      5   SATORBINT
-   Hyrrokkin      644    0.000000000000000E+00      1      5   SATORBINT
-   Kari           645    0.000000000000000E+00      1      5   SATORBINT
-   Loge           646    0.000000000000000E+00      1      5   SATORBINT
-   Skoll          647    0.000000000000000E+00      1      6   SATORBINT
-   Surtur         648    0.000000000000000E+00      1      5   SATORBINT
-   Jarnsaxa       650    0.000000000000000E+00      1      5   SATORBINT
-   Greip          651    0.000000000000000E+00      1      5   SATORBINT
-   Tarqeq         652    0.000000000000000E+00      1      5   SATORBINT
-   S2004_S07    65035    0.000000000000000E+00      1      6   SATORBINT
-   S2004_S12    65040    0.000000000000000E+00      1      5   SATORBINT
-   S2004_S13    65041    0.000000000000000E+00      1      5   SATORBINT
-   S2004_S17    65045    0.000000000000000E+00      1      5   SATORBINT
+   Ymir           619     SAT
    S2006_S01    65048    0.000000000000000E+00      1      5   SATORBINT
    S2006_S03    65050    0.000000000000000E+00      1      5   SATORBINT
    S2007_S02    65055    0.000000000000000E+00      1      5   SATORBINT
